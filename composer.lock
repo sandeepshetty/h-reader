@@ -1,0 +1,265 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "142d75c6ffb094280c8d72cfeff303d9",
+    "packages": [
+        {
+            "name": "mf2/mf2",
+            "version": "v0.1.17",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/indieweb/php-mf2.git",
+                "reference": "v0.1.17"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/indieweb/php-mf2/zipball/v0.1.17",
+                "reference": "v0.1.17",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "webignition/absolute-url-deriver": "1.3.*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "suggest": {
+                "barnabywalters/mf-cleaner": "To more easily handle the canonical data php-mf2 gives you"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "mf2\\Parser": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Barnaby Walters",
+                    "homepage": "http://waterpigs.co.uk"
+                }
+            ],
+            "description": "A pure (generic) microformats-2 parser",
+            "keywords": [
+                "microformats",
+                "microformats 2",
+                "parser",
+                "semantic"
+            ],
+            "time": "2013-06-24 13:06:56"
+        },
+        {
+            "name": "phpish/app",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpish/app.git",
+                "reference": "5734dcb56be43a8227a740b3dc5d34cb36bc6cc4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpish/app/zipball/5734dcb56be43a8227a740b3dc5d34cb36bc6cc4",
+                "reference": "5734dcb56be43a8227a740b3dc5d34cb36bc6cc4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sandeep Shetty",
+                    "email": "sandeep.shetty@gmail.com",
+                    "homepage": "http://sandeep.shetty.in",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Request Handler",
+            "homepage": "https://github.com/phpish/app",
+            "time": "2013-06-13 21:30:40"
+        },
+        {
+            "name": "phpish/http",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpish/http.git",
+                "reference": "1b8345b343422f8387a173656d71d4bf307ab85f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpish/http/zipball/1b8345b343422f8387a173656d71d4bf307ab85f",
+                "reference": "1b8345b343422f8387a173656d71d4bf307ab85f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sandeep Shetty",
+                    "email": "sandeep.shetty@gmail.com",
+                    "homepage": "http://sandeep.shetty.in",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Convenience wrapper around cURL",
+            "homepage": "https://github.com/phpish/http",
+            "keywords": [
+                "api",
+                "curl",
+                "http"
+            ],
+            "time": "2013-01-06 21:45:32"
+        },
+        {
+            "name": "phpish/template",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpish/template.git",
+                "reference": "62dfb46886254f855956e191b4d8c1ab464c1c86"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpish/template/zipball/62dfb46886254f855956e191b4d8c1ab464c1c86",
+                "reference": "62dfb46886254f855956e191b4d8c1ab464c1c86",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sandeep Shetty",
+                    "email": "sandeep.shetty@gmail.com",
+                    "homepage": "http://sandeep.shetty.in",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Capture output of and compose plain old PHP templates",
+            "homepage": "https://github.com/phpish/template",
+            "time": "2012-10-26 20:23:14"
+        },
+        {
+            "name": "webignition/absolute-url-deriver",
+            "version": "1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webignition/absolute-url-deriver.git",
+                "reference": "1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webignition/absolute-url-deriver/zipball/1.3",
+                "reference": "1.3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "webignition/url": ">=1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jon Cram",
+                    "email": "jon@webignition.net"
+                }
+            ],
+            "description": "Derives an absolute URL from relative and source URLs",
+            "homepage": "https://github.com/webignition/absolute-url-deriver",
+            "keywords": [
+                "absolute",
+                "url"
+            ],
+            "time": "2013-03-18 12:54:57"
+        },
+        {
+            "name": "webignition/url",
+            "version": "1.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webignition/url",
+                "reference": "1.4.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/webignition/url/zipball/1.4.1",
+                "reference": "1.4.1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jon Cram",
+                    "email": "jon@webignition.net"
+                }
+            ],
+            "description": "Represents a URL, a library to be used in many other places. Applies semantically-lossless normalisation for comparisons.",
+            "homepage": "https://github.com/webignition/url",
+            "keywords": [
+                "url"
+            ],
+            "time": "2012-10-19 04:50:16"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "phpish/app": 20,
+        "phpish/template": 20,
+        "phpish/http": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
